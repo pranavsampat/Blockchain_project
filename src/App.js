@@ -12,7 +12,7 @@ import contractAbi from "./contracts/contracts/Domains.sol/Domains.json";
 
 // Add the domain you will be minting
 const tld = ".cat_ninja";
-const CONTRACT_ADDRESS = "0xaC0B3A99a91181d0C420DA3F8512Fa919216501f";
+const CONTRACT_ADDRESS = "your_contract_adress";
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
