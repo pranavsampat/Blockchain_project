@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import "./styles/App.css";
-import twitterLogo from "./assets/twitter-logo.svg";
 import polygonLogo from "./assets/polygonlogo.png";
 import ethLogo from "./assets/ethlogo.png";
 import { networks } from "./utils/networks";
@@ -12,7 +11,7 @@ import contractAbi from "./contracts/contracts/Domains.sol/Domains.json";
 
 // Add the domain you will be minting
 const tld = ".cat_ninja";
-const CONTRACT_ADDRESS = "your_contract_adress";
+const CONTRACT_ADDRESS = "0x599229BB355f771757f9cE21452Af77f92dAFdB2";
 
 const App = () => {
   const [currentAccount, setCurrentAccount] = useState("");
